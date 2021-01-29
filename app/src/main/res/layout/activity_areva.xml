@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dullwhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ArevaActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightorange"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+</android.support.design.widget.AppBarLayout>
+
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="46dp"
+            android:src="@mipmap/reun" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="18sp"
+            android:layout_marginRight="3sp"
+            android:fontFamily="sans-serif"
+            android:text="REVA University (ರೇವ ಮಹಾವಿದ್ಯಾಲಯ) is alive with the confluence of different minds and energies. The exchange and intermingling of these vivacities characterize life at REVA. Located at Yelahanka, close to Bangalore International Airport, REVA University’s campus offers you the best of both worlds: city and suburb. The University’s comprehensive facilities offer you plenty to do, see, explore and experience while pursuing your studies.We are committed to provide a positive learning environment free from any form of discrimination, harassment and bullying, where all students are treated with respect and dignity. We aim to ensure that all students have equal access to the full range of institutional facilities."
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="18sp"
+            android:layout_marginRight="18sp"
+            android:fontFamily="sans-serif"
+            android:text="The founders of REVA University believe in the motto 'Knowledge is Power'. Driven with a philanthropic vision and a missionary zeal, the campus is built to transform students into outstanding citizens."
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+</FrameLayout>

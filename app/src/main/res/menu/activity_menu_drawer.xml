@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/areva"
+            android:icon="@drawable/ic_areva"
+            android:title="About REVA" />
+
+        <item
+            android:id="@+id/hreva"
+            android:icon="@drawable/ic_hreva"
+            android:title="About Hostels" />
+
+        <item
+            android:id="@+id/rooms"
+            android:icon="@drawable/ic_room"
+            android:title="Hostel Rooms" />
+
+        <item
+            android:id="@+id/facilities"
+            android:icon="@drawable/ic_facilities"
+            android:title="Facilities" />
+
+        <item
+            android:id="@+id/food"
+            android:icon="@drawable/ic_food"
+            android:title="Mess" />
+
+        <item android:title="REVA Atithi"
+            android:id="@+id/athithi"
+            android:icon="@drawable/ic_athithi"/>
+
+
+        <item
+            android:id="@+id/security"
+            android:icon="@drawable/ic_security"
+            android:title="Security Measures" />
+
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_gallery"
+            android:title="Photo Gallery" />
+        <item
+            android:id="@+id/vid"
+            android:icon="@drawable/ic_video"
+            android:title="Featured  Video" />
+
+        <item android:title="Feedback"
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"/>
+        <item
+            android:id="@+id/rr"
+            android:icon="@drawable/ic_rr"
+            android:title="Hostel Rules " />
+
+        <item
+            android:id="@+id/call"
+            android:icon="@drawable/ic_call"
+            android:title="Call now" />
+
+        <item
+            android:id="@+id/dev"
+            android:icon="@drawable/ic_developer"
+            android:title="Developers" />
+
+    </group>
+</menu>

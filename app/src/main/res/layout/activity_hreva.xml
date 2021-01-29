@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dullwhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Hreva">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/lightorange"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </android.support.design.widget.AppBarLayout>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="horizontal">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="46dp"
+            android:src="@mipmap/hostel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="The lush green campus of REVA University offers amenities like no other. With comfortable, home like halls of residence/student housing for both girls and boys and sumptuous eateries and mess to sports arenas and gyms, REVA welcomes you in with both arms into its abundant world."
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="18sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="The hostel management comprises of experienced persons who strive to provide the best atmosphere for the students. The wardens have been trained to manage the hostel and also to handle any issues that may arise in the normal functioning."
+            android:textColor="@color/colorblack"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Adequate and well-trained maintenance staff take care to see that the hostel is maintained to highest of standards."
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:layout_marginLeft="18sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Hall Of Residence"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+
+            android:textColor="@color/colorblack"
+            android:text="Separate Halls of Residence for Girls and Boys "
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:textColor="@color/colorblack"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Attached Bathrooms"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="RO Water in all student residences"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:textColor="@color/colorblack"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Hot water (Solar Heating)"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Writing board in each room"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="24 hrs water / Electricity"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Standby Generator"
+            android:textColor="@color/colorblack"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Parking"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Storage of Baggage during Vacation"
+            android:drawablePadding="5sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Eateries and Food Facilities"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorblack"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="North / South Indian Dishes"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Breakfast, Lunch, Evening Snacks and Dinner provided (Student Residence)"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Food testing done regularly"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Food Court / Cafe/ Bakery served inside the campus"
+            android:drawablePadding="5sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Security"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="24 hrs security for all the Resident blocks"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Floor Wardens on each floor"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Women Security in girl’s hostel"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Health Care and Hygiene"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorblack"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="REVA Health Center/ Pharmacy"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:textColor="@color/colorblack"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Pest Control Services"
+            android:drawablePadding="5sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Other Campus Amenities"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Clean and Green Campus"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Gymnasium (Girls and Boys)"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Wi Fi Campus"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="On Campus Beauty and Grooming Salons (Girls and Boys) "
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:textColor="@color/colorblack"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:text="Free Yoga Classes"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Modern Guest House (A/c and Non A/c Rooms)"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Banking Facility with ATM Counter inside the campus"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp"
+            android:text="Stationery store"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Online Fee payment"
+            android:drawablePadding="5sp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+</FrameLayout>

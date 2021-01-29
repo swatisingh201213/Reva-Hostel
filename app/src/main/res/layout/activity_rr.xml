@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dullwhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RRActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightorange"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:text="Rules and Regulations"
+                android:textAlignment="center"
+                android:textSize="12pt"
+                android:textStyle="bold"
+                android:textColor="@color/dullwhite"
+                android:background="@color/colorblack"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="General"
+                android:textColor="@color/colorblack"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="1. Dress code:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35sp"
+
+                android:textColor="@color/colorblack"
+                android:drawablePadding="5sp"
+                android:text="The students should be decently dressed when they are out of room."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="2. Silence:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35sp"
+
+                android:textColor="@color/colorblack"
+                android:drawablePadding="5sp"
+                android:text="Strict silence shall be observed in hostel from 12:00 midnight to 6:00 am. Care shall be taken at all times to ensure that music/loud talking is NOT audible outside the room.Recreational facilities will be turned off at 10:00 pm. "
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="3. Cleanliness:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35sp"
+                android:drawablePadding="5sp"
+                android:textColor="@color/colorblack"
+                android:text="The student shall keep their rooms, verandah and surrounding areas tidy, neat and clean at all times and shall not throw anything including trash, in such places or any premises in the hostel, except in the dustbin or the place specifically provided for the said purpose."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="Strictly Prohibited Activities"
+                android:textColor="@color/colorblack"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="1. Ragging"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblack"
+                android:layout_marginLeft="35sp"
+                android:drawablePadding="5sp"
+                android:text="Ragging in any form whatsoever is strictly BANNED. It is a cognizable offence and violation will invite action as per law of the land, in addition to expulsion from the University."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="2. Alcohol / Drugs / Smoking:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35sp"
+                android:textColor="@color/colorblack"
+                android:drawablePadding="5sp"
+                android:text="The student shall not bring, store, possess, consume and/or drink any alcohol/ intoxicating drink, drug or substance of any kind what so ever and/or smoke in the room and/or any part of premises."
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="3. Gambling:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblack"
+                android:layout_marginLeft="35sp"
+                android:drawablePadding="5sp"
+                android:text="No gambling of any kind whatsoever shall be allowed in the campus premises. Any violation of this Rule will invite action as per law of the land, in addition to expulsion from the hostel. "
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18sp"
+                android:layout_marginTop="8sp"
+                android:fontFamily="sans-serif"
+                android:text="4. Firearms:"
+                android:textColor="@color/colorblack"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblack"
+                android:layout_marginLeft="35sp"
+                android:drawablePadding="5sp"
+                android:text="Any type of storage or possession of firearm, ammunition, explosive and inflammable goods on the premises of the hostel is strictly prohibited."
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

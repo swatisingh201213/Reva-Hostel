@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FacilitiesActivity"
+    android:background="@color/dullwhite">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightorange"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dullwhite"
+    android:layout_marginTop="55dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dullwhite"
+           android:background="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="23sp"
+            android:textAlignment="center"
+            android:text="FACILITIES PROVIDED IN THE HOSTEL"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:text="Cot"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Mattress"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Study Tables"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Chairs"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Cupboards "
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Hot Water (Fixed Timings) "
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Gymnasium"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="RO Drinking Water On Alternate Floors"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="24Hrs Medical Facility"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Ambulance Facility"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="24Hrs Transport in Emergency"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Wi-Fi Internet(Fixed Timings)"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Mess Facilities"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Regular Pest Control Services"
+            android:layout_marginLeft="8sp"
+            android:drawablePadding="5sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="18sp"
+            android:layout_marginRight="18sp"
+            android:fontFamily="sans-serif"
+            android:text="New students admitted to the hostel will be provided with the following:"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="start" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/colorblack"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Bedsheets (2)"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Pillow with Pillow Cover"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:text="Bucket and Mug (1 set per room)"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:layout_marginRight="18sp"
+            android:textAlignment="textStart"
+            android:text="Additional Facilities In Hostel Campus"
+            android:textStyle="bold"
+            android:layout_marginTop="18sp"
+            android:gravity="start" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:textSize="18sp"
+            android:text="Bakery"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:textSize="18sp"
+            android:text="Barber Shop"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:text="Beauty Parlour"
+            android:layout_marginLeft="8sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblack"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+            android:paddingLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:drawablePadding="5sp"
+            android:text="Stationary Shop (with Xerox Facilities)"
+            android:layout_marginLeft="8sp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+</FrameLayout>

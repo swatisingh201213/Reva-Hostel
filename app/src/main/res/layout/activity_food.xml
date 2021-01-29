@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dullwhite"
+
+    android:fontFamily="sans-serif"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FoodActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/lightorange"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Food And Mess"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/dullwhite"
+            android:background="@color/colorblack"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:layout_weight="1"
+            android:src="@drawable/image10"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="18sp"
+            android:fontFamily="sans-serif"
+            android:text="As the students - who are from all over the country and have diverse tastes, the menu is planned as a mix of both North Indian and South Indian vegetarian food with variety every day. Great emphasis is laid on hygiene, quality and cleanliness of the food which is prepared in the hostel's own kitchen which is staffed by experienced and skilled cooks."
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="Mess  Timings"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Breakfast :- 07:10 am to 8:00 am"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Lunch :- 11:50 am to 01:45pm"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Snacks :- 04:30 pm to 05:00 pm"
+            android:drawablePadding="5sp"/>
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18sp"
+            android:drawableLeft="@drawable/bullet"
+            android:textSize="18sp"
+            android:textColor="@color/colorblack"
+            android:text="Dinner :- 07:30 pm to 08:45 pm"
+            android:drawablePadding="5sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8sp"
+            android:fontFamily="sans-serif"
+            android:text="*These timings shall be strictly adhered to by all hostellers"
+            android:textColor="@color/colorblack"
+            android:textSize="20sp"
+            android:layout_marginLeft="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/mess1" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/mess5" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/mess4" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="184dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/mess2" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
